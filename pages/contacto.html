@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Sharen Quimbayo">
+    <meta name="description" content="Dejame un mensaje">
+    <link rel="shortcut icon" href="../imagenes/TincoCode_logo.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="../styles/contacto.css">
+    <title>Contáctame</title>
+</head>
+
+<body>
+    <nav id="menu-navegacion ">
+        <ul class="menu flex">
+            <li> <a href="../index.html"> Inicio </a> </li>
+            <li> <a href="./pages/contacto.html"> Contacto </a> </li>
+            <li> <a href="./pages/peliculas.html"> Peliculas </a> </li>
+        </ul>
+    </nav>
+
+    <h1 style="text-align: center; font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;">Ingresa tu
+        información</h1>
+
+    <div>
+
+        <form method="POST">
+
+            <div class="diseño">
+                <div>
+                    <label for="Nombre">Nombre</label>
+                </div>
+
+                <div class="field primeros">
+                    <input type="text" id="Nombre" name="nombre" required placeholder="Ingresa tu nombre">
+                </div>
+
+            </div>
+
+            <div class="diseño">
+                <div>
+                    <label for="Apellido">Apellido</label>
+                </div>
+
+                <div class="field primeros">
+                    <input type="text" id="Apellido" name="apellido" required placeholder="Ingresa tu apellido">
+                </div>
+
+            </div>
+
+            <div class="diseño">
+                <div>
+                    <label for="celular">Número de teléfono</label>
+                </div>
+
+                <div class="field primeros">
+                    <input type="number" id="cedular" name="celular" required placeholder="Ingresa tu celular">
+                </div>
+
+            </div>
+
+            <div class="diseño">
+                <div>
+                    <label for="Correo">Correo electronico</label>
+                </div>
+
+                <div class="field primeros">
+                    <input type="email" id="Correo" name="correo" required placeholder="Escribe tu correo">
+                </div>
+
+            </div>
+
+            <div class="diseño">
+                <div>
+                    <label>Género</label>
+                </div>
+
+                <div class="field genero">
+                    <input type="radio" id="mujer" name="genero" value="Mujer">
+                    <label for="mujer">Mujer</label>
+                    <input type="radio" id="hombre" name="genero" value="hombre" class="hombres">
+                    <label for="hombre">Hombre</label>
+                </div>
+
+                <div class="diseño">
+
+                    <div>
+                        <label>Lenguaje de programacion favorito</label>
+                    </div>
+
+                    <div class="field programacion">
+                        <input type="checkbox" id="php" name="php" value="PHP">
+                        <label for="php">PHP</label>
+                        <input type="checkbox" id="javascript" name="javascript" value="javascript" class="java">
+                        <label for="javascript">JAVASCRIPT</label>
+                    </div>
+                </div>
+
+                <div>
+                    <div class="field">
+                        <label for="mensaje" class="mensajes">Mensaje</label>
+                    </div>
+
+                    <div class="field">
+                        <textarea name="mensaje" id="mensaje" cols="20" rows="10"></textarea>
+                    </div>
+
+                    <div class="enviar">
+                        <button>Enviar</button>
+                    </div>
+
+                </div>
+            </div>
+
+        </form>
+
+    </div>
+</body>
+
+</html>
